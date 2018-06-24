@@ -1,15 +1,15 @@
 {
-    "serialPort": {
-        "baudrate": 115200,
-        "parity": "none",
-        "dataBits": 8,
-        "stopBits": 1
-    },
-    "startCharacter": "/",
-    "stopCharacter": "!",
-    "connectionSetupTimeout": 30000,
-    "debugRawDataFile": "debug-data-raw.log",
-    "debugParsedDataFile": "debug-data-parsed.log",
-    "emulatorIntervalInSeconds": 10,
-    "emulatorIntervalGasInSeconds": 3600
+  "serialPort": {
+    "baudRate": 115200,
+    "parity": "even",
+    "dataBits": 7,
+    "stopBits": 1
+  },
+  "startCharacter": "/",
+  "stopCharacter": "!",
+  "connectionSetupTimeout": 30000,
+  "debugRawDataFile": "debug-data-raw.log",
+  "debugParsedDataFile": "debug-data-parsed.log",
+  "emulatorIntervalInSeconds": 10,
+  "emulatorIntervalGasInSeconds": 3600
 }
