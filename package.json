@@ -10,7 +10,7 @@
     "url": "https://github.com/ruudverheijden/node-p1-reader.git"
   },
   "dependencies": {
-    "serialport": "4.0.7"
+    "serialport": "6.2.0"
   },
   "devDependencies": {
     "jasmine": "^2.5.3"
